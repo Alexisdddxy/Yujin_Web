@@ -281,7 +281,7 @@ export const siteData = {
     },
     {
       "title": "今天我一定",
-      "description": "搬运有关安宥真的内容，搬运又快又全，会翻译团综",
+      "description": "搬运有关安宥真的内容",
       "href": "https://weibo.com/u/2566465062",
       "linkLabel": "Link",
       "newTab": true,
@@ -304,14 +304,6 @@ export const siteData = {
       "icon": []
     },
     {
-      "title": "azzo_搬运博",
-      "description": "搬运Azzo IG更新",
-      "href": "https://weibo.com/u/6457550109",
-      "linkLabel": "Link",
-      "newTab": true,
-      "icon": []
-    },
-    {
       "title": "头痛远离",
       "description": "干干几表情包",
       "href": "https://weibo.com/u/7335457399",
@@ -323,14 +315,6 @@ export const siteData = {
       "title": "欢迎光临真真国",
       "description": "全能bot",
       "href": "https://weibo.com/u/7921571164",
-      "linkLabel": "Link",
-      "newTab": true,
-      "icon": []
-    },
-    {
-      "title": "请拨打901热线",
-      "description": "全能bot",
-      "href": "https://weibo.com/u/7495056705",
       "linkLabel": "Link",
       "newTab": true,
       "icon": []
