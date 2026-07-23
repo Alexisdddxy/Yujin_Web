@@ -10,7 +10,7 @@ export const siteData = {
     },
     {
       "href": "microblog.html",
-      "label": "必关微博"
+      "label": "相关微博"
     },
     {
       "href": "bilibili.html",
@@ -36,11 +36,15 @@ export const siteData = {
       },
       {
         "href": "microblog.html",
-        "label": "必关微博"
+        "label": "相关微博"
       },
       {
         "href": "bilibili.html",
         "label": "必看视频"
+      },
+      {
+        "href": "others.html",
+        "label": "其他链接"
       }
     ],
     "copyright": "© 2026 All For Yujin. All rights reserved."
@@ -52,27 +56,27 @@ export const siteData = {
     "sectionTitle": "基本信息",
     "groups": [
       {
-        "title": "个人资料",
+        "title": "基本资料",
         "rows": [
           {
             "label": "姓名：",
-            "value": "안유진/AnYujin/安宥真/安兪真(正名)"
+            "value": "안유진/安宥真（安俞真）/ANYUJIN/アン・ユジン"
           },
           {
+            "label": "别名：",
+            "value": "popo/洋葱空雅/叮叮/宥叮"
+          },          
+          {
             "label": "生日：",
-            "value": "2003年9月1日"
+            "value": "2003年9月1日（处女座）"
           },
           {
             "label": "出身：",
             "value": "大田广域市"
           },
           {
-            "label": "星座：",
-            "value": "处女座"
-          },
-          {
             "label": "身高：",
-            "value": "173cm"
+            "value": "173+cm"
           },
           {
             "label": "血型：",
@@ -84,12 +88,40 @@ export const siteData = {
           },
           {
             "label": "宠物：",
-            "value": "Azzo"
+            "value": "Azzo（比熊）"
+          },
+          {
+            "label": "狗狗出生日期：",
+            "value": "2020.07.03"
+          },
+          {
+            "label": "应援色：",
+            "value": "567ACE（蓝色）（IZONE时期）"
+          },
+          {
+            "label":"动物塑: ",
+            "value": "狗狗"
+          },
+          {
+            "label":"喜欢的季节: ",
+            "value": "秋季"
+          },
+          {
+            "label":"爱吃的食物：",
+            "value": "韩餐"
+          },
+          {
+            "label":"官娃：",
+            "value": "ganganji（干干几）/anjini（安吉尼）"
           },
           {
             "label": "关键词：",
             "value": "清凉因子、帅美定式、星星嗓音"
-          }
+          },
+          {
+            "label": "TMI：",
+            "value": "不喜欢被叫全名，更常用 YUJIN / 宥真 / 유진"
+          },
         ]
       },
       {
@@ -108,9 +140,23 @@ export const siteData = {
             "value": "2021年12月1日"
           },
           {
-            "label": "担当：",
-            "value": "队长、主舞、主唱、ACE"
+            "label": "定位：",
+            "value": "队长/主唱/主舞/全能ACE"
+          },
+          
+          {
+            "label": "Solo：",
+            "value": "Force"
+          },
+          {
+            "label": "综艺：",
+            "value": "我的小电视V2、钢铁部队、蹦蹦地球游戏厅、滴滴叭叭、Crime Scene、拜托了冰箱等"
+          },
+          {
+            "label": "OST：",
+            "value": "Move Like This、The Wish、Dreaming、Sunny Day"
           }
+          
         ]
       },
       {
@@ -122,11 +168,19 @@ export const siteData = {
           },
           {
             "label": "",
+            "value": "2026韩国FIRST BRAND AWARDS综艺爱豆奖"
+          },
+          {
+            "label": "",
             "value": "2024年 青龙系列大赏 U+whynot奖"
           },
           {
             "label": "",
             "value": "2025年 品牌大赏女综艺爱豆奖"
+          },
+          {
+            "label": "",
+            "value": "2025品牌客户忠诚度大赏-女子综艺爱豆"
           },
           {
             "label": "",
@@ -138,6 +192,10 @@ export const siteData = {
           },
           {
             "label": "",
+            "value": "FUNdex Awards 2025 全球Netizen人气Star奖"
+          },
+          {
+            "label": "",
             "value": "Tving奖项 年度Pick Best Player"
           },
           {
@@ -145,10 +203,47 @@ export const siteData = {
             "value": "Tving奖项 年度Content"
           }
         ]
+      },
+      {
+        "title": "个人代言",
+        "rows": [
+          {
+            "label": "",
+            "value": "韩亚金融集团"
+          },
+          {
+            "label": "",
+            "value": "柠檬津"
+          },
+          {
+            "label": "",
+            "value": "nepa"
+          },
+          {
+            "label": "",
+            "value": "MaximSupremeGold"
+          },
+          {
+            "label": "",
+            "value": "labo-h"
+          },
+          {
+            "label": "",
+            "value": "LACOSTE"
+          },
+          {
+            "label": "",
+            "value": "Dole Sweetio"
+          }
+        ]
       }
     ],
-    "timelineTitle": "演艺经历",
+    "timelineTitle": "重要时间线",
     "timeline": [
+      {
+        "date": "2017 年年初",
+        "text": "正式成为练习生"
+      },
       {
         "date": "2018年6月",
         "text": "参加《PRODUCE 48》"
@@ -239,6 +334,14 @@ export const siteData = {
       "linkLabel": "Link",
       "newTab": true,
       "icon": []
+    },
+    {
+      "title": "小阵猪萌图bot",
+      "description": "萌图bot",
+      "href": "https://weibo.com/u/8314148085",
+      "linkLabel": "Link",
+      "newTab": true,
+      "icon": []
     }
   ],
   "socialTitle": "社交媒体",
@@ -249,6 +352,17 @@ export const siteData = {
       "href": "https://www.instagram.com/_yujin_an/",
       "linkLabel": "Link",
       "newTab": false,
+      "icon": [
+        "fab",
+        "fa-instagram"
+      ]
+    },
+    {
+      "title": "Instagram",
+      "description": "Azzo Instagram账号",
+      "href": "https://www.instagram.com/azzo_ssi/",
+      "linkLabel": "Link",
+      "newTab": true,
       "icon": [
         "fab",
         "fa-instagram"
@@ -286,7 +400,9 @@ export const siteData = {
         "fab",
         "fa-youtube"
       ]
-    }
+    },
+    
+    
   ],
   "videoSections": [
     {
