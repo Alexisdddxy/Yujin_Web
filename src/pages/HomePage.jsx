@@ -62,20 +62,6 @@ export function HomePage() {
                   随便看看
                 </a>
               </div>
-              <div className="hero-facts" aria-label="安宥真信息摘要">
-                <span>
-                  <strong>2003.09.01</strong>
-                  <small>生日</small>
-                </span>
-                <span>
-                  <strong>IVE</strong>
-                  <small>组合</small>
-                </span>
-                <span>
-                  <strong>LEADER</strong>
-                  <small>队长</small>
-                </span>
-              </div>
             </div>
           </div>
         </section>
